@@ -9,7 +9,6 @@ export default function Header() {
 
   useEffect(() => {
     window.addEventListener('scroll', trackScroll);
-    console.log('scrolled');
     return () => {
       window.removeEventListener('scroll', trackScroll);
     };

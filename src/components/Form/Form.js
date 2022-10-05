@@ -29,7 +29,6 @@ export default function Form() {
   function setCustomValidity(e) {
     e.preventDefault();
     const { name } = e.target;
-    console.log(e.target.name);
     if (name === 'email') {
       seTriger2(true);
 
